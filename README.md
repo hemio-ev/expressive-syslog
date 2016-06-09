@@ -11,6 +11,17 @@
 
 ### freshclam
 
+Those all have level 'notice':
+
+```
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.99 Recommended version: 0.99.2
+[...]
+ERROR: NotifyClamd: Can't find or parse configuration file /etc/clamav/clamd.conf
+[...]
+Can't connect to port 80 of host db.local.clamav.net (IP: XXX.XXX.XXX.XXX)
+```
+
 ### gitlab-runner
 
 - [Issue (2016) exists](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/1018)
@@ -24,6 +35,8 @@ journalalert filter
 ```
 
 ### libvirtd
+
+- Unsure what upstream situation is (only observed on Debian Jessie). In principle the messages could be imported in some situations. For us they only appeared on reboot.
 
 journalalert filter
 
