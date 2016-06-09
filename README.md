@@ -68,6 +68,7 @@ journalalert filter
 
 - Syslog is default
 - Severity levels are silly
+- [Issue (2016) exists](https://bugzilla.mindrot.org/show_bug.cgi?id=2585)
 
 journalalert filter
 
