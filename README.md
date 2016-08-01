@@ -77,11 +77,23 @@ journalalert filter
    message: 'No passwd entry for user *'
 ```
 
+## Working
+
+- apache2 (more to come in 2.6)
+- postgresql
+- postfix
+- systemd
+
 ### sshd
 
 - Syslog is default
 - Severity levels are silly
-- [Issue (2016) exists](https://bugzilla.mindrot.org/show_bug.cgi?id=2585)
+- [Issue (2016) exists](https://bugzilla.mindrot.org/show_bug.cgi?id=2585) (closed: fixed)
+- [Probably fixed in OpenSSH 7.3](https://marc.info/?l=openssh-unix-announce&m=147005475229564)
+ - *ssh(1), sshd(8): Reduce the syslog level of some relatively common
+   protocol events from LOG_CRIT. bz#2585*
+ - *sshd(8): Remove obsolete and misleading "POSSIBLE BREAK-IN
+   ATTEMPT!" message when forward and reverse DNS don't match. bz#2585*
 
 journalalert filter
 
@@ -105,10 +117,3 @@ journalalert filter
  - identifier: sshd
    message: 'fatal: no hostkey alg *'
 ```
-
-## Working
-
-- apache2 (more to come in 2.6)
-- postgresql
-- postfix
-- systemd
