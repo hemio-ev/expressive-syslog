@@ -65,6 +65,13 @@ journalalert filter
    message: 'Version:*'
 ```
 
+### pam
+
+- [Issue (2016) exists](https://fedorahosted.org/linux-pam/ticket/63) (closed: fixed)
+ - [Unification and cleanup of syslog log levels.](https://git.fedorahosted.org/cgit/linux-pam.git/commit/?id=5b4c4698e8ae75093292f49ee6456f85f95a3d5d)
+- Waiting for pam 1.4
+
+
 ### roundcube
 
 
