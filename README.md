@@ -77,6 +77,8 @@ journalalert filter
 
 ### su
 
+- [PR (2016) exists](https://github.com/shadow-maint/shadow/pull/29)
+
 journalalert filter
 
 ```yaml
