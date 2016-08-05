@@ -67,7 +67,7 @@ journalalert filter
 
 ### pam
 
-- [Issue (2016) exists](https://fedorahosted.org/linux-pam/ticket/63) (closed: fixed)
+- ~~[Issue (2016) exists](https://fedorahosted.org/linux-pam/ticket/63)~~ (closed: fixed)
  - [Unification and cleanup of syslog log levels.](https://git.fedorahosted.org/cgit/linux-pam.git/commit/?id=5b4c4698e8ae75093292f49ee6456f85f95a3d5d)
 - Waiting for pam 1.4
 
@@ -77,7 +77,8 @@ journalalert filter
 
 ### su
 
-- [PR (2016) exists](https://github.com/shadow-maint/shadow/pull/29)
+- ~~[PR (2016) exists](https://github.com/shadow-maint/shadow/pull/29)~~ (closed: merged)
+- Waiting for new release
 
 journalalert filter
 
@@ -97,7 +98,7 @@ journalalert filter
 
 - Syslog is default
 - Severity levels are silly
-- [Issue (2016) exists](https://bugzilla.mindrot.org/show_bug.cgi?id=2585) (closed: fixed)
+- ~~[Issue (2016) exists](https://bugzilla.mindrot.org/show_bug.cgi?id=2585)~~ (closed: fixed)
 - [Probably fixed in OpenSSH 7.3](https://marc.info/?l=openssh-unix-announce&m=147005475229564)
  - *ssh(1), sshd(8): Reduce the syslog level of some relatively common
    protocol events from LOG_CRIT. bz#2585*
