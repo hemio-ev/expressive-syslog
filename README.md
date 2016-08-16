@@ -65,27 +65,9 @@ journalalert filter
    message: 'Version:*'
 ```
 
-### pam
-
-- ~~[Issue (2016) exists](https://fedorahosted.org/linux-pam/ticket/63)~~ (closed: fixed)
- - [Unification and cleanup of syslog log levels.](https://git.fedorahosted.org/cgit/linux-pam.git/commit/?id=5b4c4698e8ae75093292f49ee6456f85f95a3d5d)
-- Waiting for pam 1.4
-
-
 ### roundcube
 
 
-### su
-
-- ~~[PR (2016) exists](https://github.com/shadow-maint/shadow/pull/29)~~ (closed: merged)
-- Waiting for new release
-
-journalalert filter
-
-```yaml
- - identifier: su
-   message: 'No passwd entry for user *'
-```
 
 ## Working
 
@@ -93,6 +75,12 @@ journalalert filter
 - postgresql
 - postfix
 - systemd
+
+### pam
+
+- ~~[Issue (2016) exists](https://fedorahosted.org/linux-pam/ticket/63)~~ (closed: fixed)
+ - [Unification and cleanup of syslog log levels.](https://git.fedorahosted.org/cgit/linux-pam.git/commit/?id=5b4c4698e8ae75093292f49ee6456f85f95a3d5d)
+- Waiting for pam 1.4
 
 ### sshd
 
@@ -126,4 +114,16 @@ journalalert filter
    message: 'fatal: Write failed: Connection reset by peer *'
  - identifier: sshd
    message: 'fatal: no hostkey alg *'
+```
+
+### su
+
+- ~~[PR (2016) exists](https://github.com/shadow-maint/shadow/pull/29)~~ (closed: merged)
+- Waiting for new release
+
+journalalert filter
+
+```yaml
+ - identifier: su
+   message: 'No passwd entry for user *'
 ```
